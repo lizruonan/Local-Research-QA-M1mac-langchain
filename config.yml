@@ -1,0 +1,19 @@
+# Document Retrieval & Vector Store
+RETURN_SOURCE_DOCUMENTS: True # when retrieving answers, returns the original source documents used for generating responses
+VECTOR_COUNT: 1 # retrieves TOP 3 MOST RELEVANT chunks
+CHUNK_SIZE: 500 # Text documents splitting into chunks of 500 tokens
+CHUNK_OVERLAP: 50 # When splitting into documents, there is an overlap of 50 tokens between consecutive chunks
+DATA_PATH: 'data6/' # The directory of the raw data files before being processed into embeddings
+DB_FAISS_PATH: 'vectorstore/db_faiss_llama2_MD_pg20_500' # The path to the FAISS vector database storing the document embeddings
+
+# -----------
+# Model Configuration
+# MODEL_TYPE: 'mpt'
+# MODEL_BIN_PATH: 'models/mpt-7b-instruct.ggmlv3.q8_0.bin'
+MODEL_TYPE: 'llama' # LLaMA2 model 
+MODEL_BIN_PATH: './models/llama-2-7b-chat.Q4_K_M.gguf' # The path to the quantized (GGMLv3, 8-bit precision) LLaMa2 model file
+
+# -------------
+# Generation Parameters
+MAX_NEW_TOKENS: 256 #256 # The model will generate a maximum of 256 tokens of responses 
+TEMPERATURE: 0.01 # Controls the randomness of the model responses. 0.00 makes the model deterministic, While a higher temperature increases randomness. 
