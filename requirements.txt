@@ -1,0 +1,10 @@
+faiss-cpu=1.10.0
+langchain=0.3.19
+langchain_core
+langchain-community=0.3.18
+langchain-huggingface=0.1.2
+llama_cpp_python=0.3.7
+sentence-transformers=3.4.1
+python-box=7.3.2
+pypdf=5.3.0
+rapidocr-onnxruntime=1.4.4
