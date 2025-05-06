@@ -1,4 +1,4 @@
-# Local Research QA System on M1 Mac using langChain and LLaMA2 
+# Local Research QA System on M1 Mac using LangChain and LLaMA2 
 
 ## Description
 A local QA system for scientific research, powered by LLMs running locally on an M1 Mac. 
