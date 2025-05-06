@@ -1,12 +1,15 @@
-# Local-Research-QA-M1_Mac-langchain
+# Local Research QA System on M1 Mac using langChain and LLaMA2 
 
-A QA system for scientific research using LLMs locally on M1 Mac. 
+## Description
+A local QA system for scientific research, powered by LLMs running locally on an M1 Mac. 
 
 ## Context: 
-Large Language Models (LLMs) are powerful for understanding human instructions. However, there are many instances that LLMs don't understand user queries in specific fields, such as Advanced Mathematics, Scientific Research, and Engineering. To understand the user questions, LLMs will need in-context learning from the topics as an external knowledge source. 
+Large Language Models (LLMs) are powerful at understanding human instructions. However, they often struggle with domain-specific queries, especially in areas like Advanced Mathematics, Scientific Research, and Engineering. 
 
-In this project, I will discover how to build a QA system for scientific research based on the idea of Retrieval Augmented Generalization (RAG). RAG provides external knowledge that is retrieved from selected research documents (such as PDFs). LLMs will then be able to provide helpful answers and insights for conducting scientific research.
+To better handle these queries, LLMs require access to domain knowledge as external context. 
+
+This project aims to build a local QA system for scientific research based on Retrieval-Augmented Generalization (RAG) framework. Using LangChain and a locally deployed LLaMA2 model, the system retrieves relevant content from selected research documents (such as PDFs) to generate accurate and context-aware responses.
 
 ## Next Step: 
-1. Improve chunk splitting for pdf. documents
-2. Add Chat History modules
+1. Implement improved chunk splitting for PDF documents (custom parser instead of manual markdown conversion)
+2. Add multi-turn chat history to support context-aware conversations.
