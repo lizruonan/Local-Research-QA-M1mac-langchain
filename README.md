@@ -43,5 +43,5 @@ pip list | grep langchain
 ```
 
 ## To do: 
-1. Implement improved chunk splitting for PDF documents (custom parser instead of manual markdown conversion)
+1. Try more PDF chunking methods (custom parser instead of manual markdown conversion)
 2. Multi-turn chat history to support context-aware conversations.
