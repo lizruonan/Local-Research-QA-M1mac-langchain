@@ -13,13 +13,15 @@ This project aims to build a local QA system for scientific research based on Re
 ## Hardware Requirement:
 🍎 M1 Mac with 16GB RAM
 
-## Environment Setup:
-You will need to :
+## Quick Start:
+You will need to (it might take a while) :
 - Create and using a conda environment using Miniforge3 installer
-- Install llama.cpp
-- Install Langchain
-- Install Sentence-Transformers
-- Download Hunggingface models
+  - Install llama.cpp
+  - Install Langchain
+  - Install Sentence-Transformers
+- Download LLM models from Huggingface
+
+## Environment Setup:
 
 ### Downloading Miniforge3 installer:
 
@@ -50,13 +52,13 @@ To check the package installed, try:
 ```
 pip list | grep langchain
 ```
-### Install Sentence-Transformers
+### Installing Sentence-Transformers
 ```
 pip install -U sentence-transformers
 ```
 ## Models
 Llama2-7b and Llama2-13b (4 bit quantization).
-### Download Huggingface models
+### Obtaining models from Huggingface
 ```
 huggingface-cli download TheBloke/Llama-2-13B-chat-GGUF llama-2-13b-chat.Q4_K_M.gguf --local-dir . --local-dir-use-symlinks False
 ```
