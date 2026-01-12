@@ -14,7 +14,7 @@ This project aims to build a local QA system for scientific research based on Re
 🍎 M1 Mac with 16GB RAM
 
 ## Quick Start:
-You will need to (it might take a while) :
+To get started with the QA system, you will need to:
 - Create and using a conda environment using Miniforge3 installer
   - Install llama.cpp
   - Install Langchain
