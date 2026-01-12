@@ -1,7 +1,7 @@
 # Local Research QA System on M1 Mac using LangChain and LLaMA2
 
 ## Description
-This project aims to build a local QA system for scientific research based on Retrieval-Augmented Generalization (RAG) framework. Using LangChain framework and a locally deployed LLaMA model, the system retrieves relevant content from selected research papers (PDF documents) to generate accurate and context-aware responses.
+This project aims to build a local QA system for scientific research based on Retrieval-Augmented Generalization (RAG). Using LangChain framework and a locally deployed LLaMA model, the system retrieves relevant content from selected research papers (PDF documents) to generate accurate and context-aware responses.
 
 ## Hardware Requirement:
 🍎 Apple Silicon
