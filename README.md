@@ -3,6 +3,11 @@
 ## Description
 This project aims to build a local QA system for scientific research based on Retrieval-Augmented Generalization (RAG). Using LangChain framework and a locally deployed LLaMA model, the system retrieves relevant content from selected research papers (PDF documents) to generate accurate and context-aware responses.
 
+<figure>
+  <img src="LLM-SolnArch.png" alt="architecture">
+  <figcaption>Architecture of the QA System </figcaption>
+</figure>
+
 ## Hardware Requirement:
 🍎 Apple Silicon
 
