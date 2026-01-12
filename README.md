@@ -36,8 +36,7 @@ conda activate llama-env
 ```
 ### Installing Llama-cpp-python
 ```
-pip uninstall llama-cpp-python -y
-conda create -n llama python=3.9.16 [](https://llama-cpp-python.readthedocs.io/en/latest/install/macos/#__codelineno-2-2)conda activate llama
+CMAKE_ARGS="-DGGML_METAL=on" pip install llama-cpp-python
 ```
 ### Installing Langchain
 ```
