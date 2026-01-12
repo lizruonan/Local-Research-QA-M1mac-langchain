@@ -11,7 +11,9 @@ To better handle these topics, LLMs require access to domain knowledge as extern
 This project aims to build a local QA system for scientific research based on Retrieval-Augmented Generalization (RAG) framework. Using LangChain and a locally deployed LLaMA model, the system retrieves relevant content from selected research documents (such as PDFs) to generate accurate and context-aware responses.
 
 ## Hardware Requirement:
-🍎 M1 Mac with 16GB RAM
+🍎 Apple Silicon
+
+Memory >= 16GB RAM
 
 ## Quick Start:
 To get started with the QA system, you will need to:
