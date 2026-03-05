@@ -27,7 +27,7 @@ To get started with the QA system, you will need to:
 
 Minimum requirements for M1 Mac: [macOS >= 11.0](https://github.com/conda-forge/miniforge?tab=readme-ov-file#requirements-and-installers)
 ```
-wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh 
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh"
 bash Miniforge3-MacOSX-arm64.sh
 ```
 ### Activating the base environment
