@@ -35,9 +35,9 @@ bash Miniforge3-MacOSX-arm64.sh
 source ~/miniforge3/bin/activate
 ```
 ### Creating a sub-environment
-Requirement: python >= 3.9, for example,
+Requirement: any python versions >= 3.9, for example,
 ```
-conda create -n [myenv] python=3.9.16
+conda create -n [myenv] python=3.9
 conda activate [myenv]
 ```
 ### Installing Llama-cpp-python
