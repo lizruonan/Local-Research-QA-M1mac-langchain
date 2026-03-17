@@ -64,5 +64,8 @@ huggingface-cli download TheBloke/Llama-2-13B-chat-GGUF llama-2-13b-chat.Q4_K_M.
 ```
 
 ## To do: 
-1. Try more PDF chunking methods (custom parser instead of manual markdown conversion)
-2. Multi-turn chat history to support context-aware conversations.
+1. Try more PDF chunking methods
+2. PDF Parsing and convert to markdown (work in progress, see preprocessing.py)
+3. Multi-turn chat history to support context-aware conversations (work in progress)
+
+
